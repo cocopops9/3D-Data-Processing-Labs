@@ -3,6 +3,8 @@ build/
 *.obj
 __pycache__/
 *.pyc
+.ipynb_checkpoints/
 .vscode/
 .idea/
 *.swp
+.DS_Store
