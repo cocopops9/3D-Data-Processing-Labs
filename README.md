@@ -40,7 +40,7 @@ Sparse 3D reconstruction from uncalibrated image sequences: feature corresponden
 
 ---
 
-### [Lab 3: Full point cloud registration](lab3-point-cloud-registration/) · 27/30
+### [Lab 3: Full point cloud registration](lab3-point-cloud-registration/) 
 
 FPFH descriptor matching with RANSAC for global alignment, followed by ICP refinement. Two ICP solvers implemented from scratch (closed-form SVD and Ceres Levenberg-Marquardt) and benchmarked against three Open3D solvers over a 4 by 4 grid of injected pose noise.
 
@@ -52,7 +52,7 @@ The benchmark separates two regimes cleanly. Bunny and dragon reach a final RMSE
 
 ---
 
-### [Lab 4: Sparse convolutional LiDAR segmentation](lab4-minkunet-segmentation/) · 30/30
+### [Lab 4: Sparse convolutional LiDAR segmentation](lab4-minkunet-segmentation/)
 
 MinkUNet on SemanticPOSS using the Minkowski Engine, with a custom sparse gated residual block and submanifold convolutions throughout the trunk. Two controlled studies: voxel resolution sensitivity, and a feature ablation isolating the contribution of LiDAR remission.
 
