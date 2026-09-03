@@ -3,7 +3,7 @@
 Semantic segmentation of outdoor LiDAR scans on SemanticPOSS using a MinkUNet built on the Minkowski Engine. The network operates directly on sparse voxelized point clouds rather than dense grids, which is what makes the problem tractable at all: a LiDAR scan occupies a tiny fraction of its bounding volume, so dense 3D convolution spends nearly all of its compute on empty space.
 
 Course: 3D Data Processing, University of Padova. Author: Giuseppe D'Auria.
-Graded 30/30. Python, PyTorch, MinkowskiEngine, trained on Google Colab.
+Languages: Python, PyTorch, MinkowskiEngine, trained on Google Colab.
 
 ## Implementation
 
