@@ -2,7 +2,7 @@
 
 Two-stage registration of partial 3D scans: FPFH descriptor matching with RANSAC gives a coarse global pose, then ICP refines it to convergence. Two ICP solvers were implemented from scratch (closed-form SVD and Levenberg-Marquardt via Ceres) and benchmarked against the three Open3D solvers across a 4 by 4 grid of injected pose noise.
 
-Course: 3D Data Processing, University of Padova. Author: Giuseppe D'Auria, ID 2163508.
+Course: 3D Data Processing, University of Padova. Author: Giuseppe D'Auria.
 Language: C++ with Open3D, Ceres, and Eigen.
 
 ## Results
